@@ -14,7 +14,7 @@ for(var i=0; i<inputs.length; i++){
   }
 }
 function retrieveEmployeeInformation(){
-  return document.getElementsByName('name')[0]
+  return document.getElementsByName('name')[0].value
 }
 function addNewElementAsLi(){
 
