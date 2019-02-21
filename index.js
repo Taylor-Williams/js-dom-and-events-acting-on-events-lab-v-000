@@ -23,3 +23,6 @@ function addNewLiOnClick(){
 function clearEmployeeListOnLinkClick(){
 
 }
+function resetInput(){
+  document.querySelector('input').value = ''
+}
