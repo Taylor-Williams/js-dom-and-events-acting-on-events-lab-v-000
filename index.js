@@ -17,7 +17,7 @@ function retrieveEmployeeInformation(){
   return document.getElementsByName('name')[0].value
 }
 function addNewElementAsLi(){
-  document.getElementsByClassName('employee-list')
+  document.getElementsByClassName('employee-list').append(`<li>${retrieveEmployeeInformation}</li>`)
 }
 function addNewLiOnClick(){
 
