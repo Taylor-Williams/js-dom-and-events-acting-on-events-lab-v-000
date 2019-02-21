@@ -17,10 +17,8 @@ function retrieveEmployeeInformation(){
   return document.getElementsByName('name')[0].value
 }
 function addNewElementAsLi(){
-  var node = document.createElement("LI")
-  var textnode = document.createTextNode(retrieveEmployeeInformation())
-  node.appendChild(textnode)
-  document.getElementsByClassName('employee-list')[0].appendChild(node)
+  let employeeName = retrieveEmployeeInformation()
+  document.querySelector('.employee-list').insertAdjacentHTML('beforeend', `<li>${employeeName}</li>`)
 }
 function addNewLiOnClick(){
   let submit = document.querySelector('input[type="submit"]')
