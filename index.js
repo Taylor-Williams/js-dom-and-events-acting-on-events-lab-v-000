@@ -8,6 +8,12 @@ preventRefreshOnSubmit()
 function retrieveEmployeeInformation(){
 
 }
-function addNewElementAsLi(){}
-function addNewLiOnClick(){}
-function clearEmployeeListOnLinkClick(){}
+function addNewElementAsLi(){
+  
+}
+function addNewLiOnClick(){
+  
+}
+function clearEmployeeListOnLinkClick(){
+  
+}
