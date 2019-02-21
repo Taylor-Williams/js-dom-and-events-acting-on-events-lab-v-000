@@ -6,7 +6,7 @@ function preventRefreshOnSubmit(){
 
 preventRefreshOnSubmit()
 function retrieveEmployeeInformation(){
-  
+
 }
 function addNewElementAsLi(){}
 function addNewLiOnClick(){}
