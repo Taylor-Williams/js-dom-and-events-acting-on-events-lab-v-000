@@ -17,10 +17,10 @@ function retrieveEmployeeInformation(){
   return document.getElementsByName('name')[0].value
 }
 function addNewElementAsLi(){
-  var node = document.createElement("LI");
-  var textnode = document.createTextNode(retrieveEmployeeInformation);
-  node.appendChild(textnode);
-  document.getElementById("myList").appendChild(node);
+  var node = document.createElement("LI")
+  var textnode = document.createTextNode(retrieveEmployeeInformation)
+  node.appendChild(textnode)
+  document.getElementById("myList").appendChild(node)
   document.getElementsByClassName('employee-list').append(`<li>${retrieveEmployeeInformation}</li>`)
 }
 function addNewLiOnClick(){
