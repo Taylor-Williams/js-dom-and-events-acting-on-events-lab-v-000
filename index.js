@@ -23,9 +23,10 @@ function addNewElementAsLi(){
   document.getElementsByClassName('employee-list')[0].appendChild(node)
 }
 function addNewLiOnClick(){
-  document.querySelector('form').addEventListener('submit', function(){
+  let submit = document.querySelector('input[type="submit"]')
+  submit.addEventListener('click', function(event){
     addNewElementAsLi()
-    modifyText("")
+    resetInput()
   })
 }
 function clearEmployeeListOnLinkClick(){
