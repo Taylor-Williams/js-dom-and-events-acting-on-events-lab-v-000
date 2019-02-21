@@ -20,7 +20,7 @@ function addNewElementAsLi(){
   var node = document.createElement("LI")
   var textnode = document.createTextNode(retrieveEmployeeInformation)
   node.appendChild(textnode)
-  document.getElementsByClassName('employee-list').appendChild(node)
+  document.getElementsByClassName('employee-list')[0].appendChild(node)
 }
 function addNewLiOnClick(){
 
