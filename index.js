@@ -14,7 +14,7 @@ for(var i=0; i<inputs.length; i++){
   }
 }
 function retrieveEmployeeInformation(){
-
+  
 }
 function addNewElementAsLi(){
 
